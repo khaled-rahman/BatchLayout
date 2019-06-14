@@ -19,9 +19,9 @@ This version of SMU takes input graph in matrix market format. A sample dataset 
 This tool is in executable format. So, you do not need to do any extra works. Just type the following:
 
 ```
-./SMU datasets/input/example.mtx 4 500
+./SMU datasets/input/3elt_dual.mtx 4 500
 ```
-Here, datasets/input/example.mtx is input graph, 4 is the number of threads and 500 is the iterations number. Note that this will report results for sequential version as well as parallel version. For maximum CPU utilization, please provide highest number of cores in your computing machine. In linux system, you can easily find it by typing `nproc` command in terminal. Output will be stored in datasets/output directory with corresponding name and minibatch size. This version reports coordinates of the graph which can be easily visualized using networkx. Users can see visualize.ipynb jupyter notebook. You can jupyter notebook using following command provided that you have it installed on your machine. Then set appropriate directory for input and output files.
+Here, datasets/input/3elt_dual.mtx is input graph, 4 is the number of threads and 500 is the iterations number. Note that this will report results for sequential version as well as parallel version. For maximum CPU utilization, please provide highest number of cores in your computing machine. In linux system, you can easily find it by typing `nproc` command in terminal. Output will be stored in datasets/output directory with corresponding name and minibatch size. This version reports coordinates of the graph which can be easily visualized using networkx. Users can see visualize.ipynb jupyter notebook. You can jupyter notebook using following command provided that you have it installed on your machine. Then set appropriate directory for input and output files.
 ```
 jupyter notebook visualize.ipynb
 ```
