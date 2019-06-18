@@ -1,0 +1,11 @@
+This tool is prepared by Md. Khaledur Rahman for layout generation from Gephi
+If you have question, send email to morahma@iu.edu
+Currently it supports forceatlas2 and openord
+Working Directory = /N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU
+
+Starting Forceatlas2 ...
+
+Setting: threads = 1, iterations = 600
+Graph has 3136 vertices and 6112 edges
+Forceatlas2 took 4.357382 seconds using 1 threads!
+.......End.......

@@ -1,0 +1,20 @@
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/power.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.0013402309268713 seconds
+Input Matrix: Rows = 4941, Columns= 4941, nnz = 13188
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:600
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:1.92178e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:5.08919
+Creating output file in following directory:datasets/output/power.mtxCACHEMINB128PARAOUTRAND600.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:2.20646e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:4.60653
+Creating output file in following directory:datasets/output/power.mtxCACHEMINB256PARAOUTRAND600.txt

@@ -1,0 +1,20 @@
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/3elt_dual.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.001671468839049339 seconds
+Input Matrix: Rows = 9000, Columns= 9000, nnz = 26556
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:600
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:4.47552e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:12.5159
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB128PARAOUTRAND600.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:4.70207e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:9.38765
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB256PARAOUTRAND600.txt

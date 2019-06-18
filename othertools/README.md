@@ -20,8 +20,7 @@ This tool is in executable format. So, you do not need to do any extra works. Go
 ```
 java -jar othertools/GephiLayouts-1.0.jar openord -i datasets/input/3elt_dual.gml -o datasets/output/3elt_dual.openord.gml -threads 8 -maxiters 600 -edgecut 0
 ```
-Here, `-i` indicates input file, `-o` indicates output file, `-threads` indicates number of threads to use and `-maxiters` indicates maximum n
-umber of iterations to run. When `-edgecut 0` is used, then it will not cut any edge from the graph.
+Here, `-i` indicates input file, `-o` indicates output file, `-threads` indicates number of threads to use and `-maxiters` indicates maximum number of iterations to run. When `-edgecut 0` is used, then it will not cut any edge from the graph. It also supports other parameters which will be described later.
 
 
 If you have questions, please don't hesitate to ask me (Md. Khaledur Rahman) by sending email to morahma@iu.edu

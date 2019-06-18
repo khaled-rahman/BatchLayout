@@ -1,0 +1,20 @@
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/grid2_dual.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.0009892024099826813 seconds
+Input Matrix: Rows = 3136, Columns= 3136, nnz = 12224
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:600
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:1.27421e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:3.63933
+Creating output file in following directory:datasets/output/grid2_dual.mtxCACHEMINB128PARAOUTRAND600.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:1.28164e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:2.81993
+Creating output file in following directory:datasets/output/grid2_dual.mtxCACHEMINB256PARAOUTRAND600.txt
