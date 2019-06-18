@@ -1,0 +1,40 @@
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/googletopic.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.003612320870161057 seconds
+Input Matrix: Rows = 9000, Columns= 9000, nnz = 26556
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:600
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:4.47552e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:12.4982
+Creating output file in following directory:datasets/output/googletopic.mtxCACHEMINB128PARAOUTRAND600.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:4.70207e+06
+Final(Cache) Minibatch Parallel(inner) Wall time required:9.32093
+Creating output file in following directory:datasets/output/googletopic.mtxCACHEMINB256PARAOUTRAND600.txt
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/googletopic.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.3031906243413687 seconds
+Input Matrix: Rows = 6151, Columns= 6151, nnz = 53634
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:600
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:2.53488e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:8.38139
+Creating output file in following directory:datasets/output/googletopic.mtxCACHEMINB128PARAOUTRAND600.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:3.01219e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:7.02829
+Creating output file in following directory:datasets/output/googletopic.mtxCACHEMINB256PARAOUTRAND600.txt

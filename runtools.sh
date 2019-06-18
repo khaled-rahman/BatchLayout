@@ -18,4 +18,11 @@ java -jar othertools/GephiLayouts-1.0.jar openord -i datasets/input/sf_ba6000.gm
 ./SMU datasets/input/3elt_dual.mtx 32 600 >> results/3elt_dual.mtx.SMU.txt
 ./SMU datasets/input/grid2_dual.mtx 32 600 >> results/grid2_dual.mtx.SMU.txt
 ./SMU datasets/input/power.mtx 32 600 >> results/power.mtx.SMU.txt
-./SMU datasets/input/sf_ba6000.mtx 32 600 >> results/sf_ba6000.mtx.SMU.txt 
+./SMU datasets/input/sf_ba6000.mtx 32 600 >> results/sf_ba6000.mtx.SMU.txt
+
+
+###google topic
+java -jar othertools/GephiLayouts-1.0.jar forceatlas2 -i datasets/input/googletopic.gml -o datasets/output/googletopic.forceatlas2_600.gml -threads 32 -maxiters 600 >> results/googletopic.forceatlas2_600.txt
+java -jar othertools/GephiLayouts-1.0.jar forceatlas2 -i datasets/input/googletopic.gml -o datasets/output/googletopic.forceatlas2_BH_600.gml -threads 1 -maxiters 600  -barneshut true >> results/googletopic.forceatlas2_BH_600.txt
+java -jar othertools/GephiLayouts-1.0.jar openord -i datasets/input/googletopic.gml -o datasets/output/googletopic.openord_600.gml -threads 32 -maxiters 600 >> results/googletopic.openord_600.txt
+./SMU datasets/input/googletopic.mtx 32 600 >> results/googletopic.mtx.SMU.txt 
