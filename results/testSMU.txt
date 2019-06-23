@@ -1,0 +1,80 @@
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/3elt_dual.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.001835182309150696 seconds
+Input Matrix: Rows = 9000, Columns= 9000, nnz = 26556
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:100
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:2.53104e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:2.06183
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB128PARAOUTRAND100.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:2.57868e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:1.53476
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB256PARAOUTRAND100.txt
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/3elt_dual.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.001841811463236809 seconds
+Input Matrix: Rows = 9000, Columns= 9000, nnz = 26556
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:100
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:2.53104e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:2.04802
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB128PARAOUTRAND100.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:2.57868e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:1.55016
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB256PARAOUTRAND100.txt
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/3elt_dual.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.002045780420303345 seconds
+Input Matrix: Rows = 9000, Columns= 9000, nnz = 26556
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:100
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:2.53104e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:2.08497
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB128PARAOUTRAND100.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:2.57868e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:1.5424
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB256PARAOUTRAND100.txt
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/3elt_dual.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.001682678237557411 seconds
+Input Matrix: Rows = 9000, Columns= 9000, nnz = 26556
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:100
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:2.53104e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:2.06477
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB128PARAOUTRAND100.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:2.57868e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:1.54978
+Creating output file in following directory:datasets/output/3elt_dual.mtxCACHEMINB256PARAOUTRAND100.txt

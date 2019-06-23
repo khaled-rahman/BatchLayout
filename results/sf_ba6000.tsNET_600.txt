@@ -1,0 +1,4 @@
+Reading graph: datasets/input/sf_ba6000.vna... Done.
+Input graph: sf_ba6000, (|V|, |E|) = (6000, 5999)
+Computing SPDM... Done.
+Finding sigmas... Iteration 1/50: Perplexities in [5981.0440, 5997.7992].Finding sigmas... Iteration 2/50: Perplexities in [5711.7533, 5980.7101].Finding sigmas... Iteration 3/50: Perplexities in [2773.5016, 5759.4861].Finding sigmas... Iteration 4/50: Perplexities in [48.6056, 4152.3466].Finding sigmas... Iteration 5/50: Perplexities in [2.8730, 1379.3778].Finding sigmas... Iteration 6/50: Perplexities in [1.2802, 913.8051].Finding sigmas... Iteration 7/50: Perplexities in [1.0142, 306.7292].Finding sigmas... Iteration 8/50: Perplexities in [6.4110, 130.7731].Finding sigmas... Iteration 9/50: Perplexities in [15.8374, 99.0000].Finding sigmas... Iteration 10/50: Perplexities in [nan, nan].

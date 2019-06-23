@@ -22,5 +22,12 @@ java -jar othertools/GephiLayouts-1.0.jar openord -i datasets/input/3elt_dual.gm
 ```
 Here, `-i` indicates input file, `-o` indicates output file, `-threads` indicates number of threads to use and `-maxiters` indicates maximum number of iterations to run. When `-edgecut 0` is used, then it will not cut any edge from the graph. It also supports other parameters which will be described later.
 
+# How to run tsNET #
+
+tsNET is a graph layout version of t-SNE (details can be found in [tsNET](https://github.com/HanKruiger/tsNET]). This tool can be run using following command:
+```
+python othertools/tsNET/tsnet.py datasets/input/3elt_dual.vna --output datasets/output/3elt_dual.tsNET_600.txt
+```
+Here, `--output` indicates output files where coordinates will be saved. It also supports other parameters like `--perplexity`, `--learning_rate` which are currently set as default values.
 
 If you have questions, please don't hesitate to ask me (Md. Khaledur Rahman) by sending email to morahma@iu.edu

@@ -1,0 +1,5 @@
+Reading graph: datasets/input/googletopic.vna... Done.
+Input graph: googletopic, (|V|, |E|) = (6151, 26817)
+Computing SPDM... [distance_matrix] There were disconnected components!
+Done.
+Finding sigmas... Iteration 1/50: Perplexities in [6131.9276, 6149.8235].Finding sigmas... Iteration 2/50: Perplexities in [6029.1265, 6141.6293].Finding sigmas... Iteration 3/50: Perplexities in [49.1456, 5946.6062].Finding sigmas... Iteration 4/50: Perplexities in [1.0000, 5945.7832].Finding sigmas... Iteration 5/50: Perplexities in [1.0641, 5942.6755].Finding sigmas... Iteration 6/50: Perplexities in [5.1227, 5898.0532].Finding sigmas... Iteration 7/50: Perplexities in [16.9963, 5387.9696].Finding sigmas... Iteration 8/50: Perplexities in [1.6548, 3040.9183].Finding sigmas... Iteration 9/50: Perplexities in [1.0085, 2184.5731].Finding sigmas... Iteration 10/50: Perplexities in [1.5236, 855.9220].Finding sigmas... Iteration 11/50: Perplexities in [5.3216, 530.0000].Finding sigmas... Iteration 12/50: Perplexities in [nan, nan].
