@@ -24,7 +24,7 @@ Here, `-i` indicates input file, `-o` indicates output file, `-threads` indicate
 
 # How to run tsNET #
 
-tsNET is a graph layout version of t-SNE (details can be found in [tsNET](https://github.com/HanKruiger/tsNET]). This tool can be run using following command:
+tsNET is a graph layout version of t-SNE (details can be found in [tsNET](https://github.com/HanKruiger/tsNET)). This tool can be run using following command:
 ```
 python othertools/tsNET/tsnet.py datasets/input/3elt_dual.vna --output datasets/output/3elt_dual.tsNET_600.txt
 ```
