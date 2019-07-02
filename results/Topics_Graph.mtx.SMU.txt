@@ -1,0 +1,20 @@
+reading input matrices in text (ascii)... 
+Input File Directory:datasets/input/Topics_Graph.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.004804486990906298 seconds
+Input Matrix: Rows = 5947, Columns= 5947, nnz = 53390
+Converting to csc ... 
+
+Entering TestCSR ... 
+Total Number of iterations is:600
+Please wait ... ... ...
+
+Number of threads:32
+Final(Cache) Batch Size:128, BLOCKSIZE:128
+Final(Cache) Minbatch Energy:2.32122e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:7.85231
+Creating output file in following directory:datasets/output/Topics_Graph.mtxCACHEMINB128PARAOUTRAND600.txt
+Final(Cache) Batch Size:256, BLOCKSIZE:256
+Final(Cache) Minbatch Energy:2.40469e+07
+Final(Cache) Minibatch Parallel(inner) Wall time required:6.40409
+Creating output file in following directory:datasets/output/Topics_Graph.mtxCACHEMINB256PARAOUTRAND600.txt
