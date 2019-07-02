@@ -2,7 +2,7 @@
 Parallel Stochastic Minibatch Update (SMU) Algorithm for Force-Directed Graph Drawing in Shared Memory. This tool generates layout of graphs using multicores which is generally faster than equivalent algorithms. We assume that the input graph is undirected, connected and symmetric.
 
 ## System Requirements ##
-Users need to have following softwares/tools installed in their PC.
+Users need to have following softwares/tools installed in their linux based machine.
 ```
 GCC version >= 4.9
 OpenMP version >= 4.5
