@@ -14,8 +14,6 @@ OpenMP version >= 4.5
 
 Input file must be in matrix market format ([check here for details about .mtx file](https://math.nist.gov/MatrixMarket/formats.html)). To check compile and run, use the following command:
 ```
-$ make clean
-$ make smu
 $ ./bin/SMUtool -input ./datasets/input/3elt_dual.mtx -output ./datasets/output/ -iter 600 -batch 256 -threads 32 -algo 2
 ```
 Here, `-input` is the full path of input file, `-output` is the directory where output file will be saved, `-iter` is the number of iterations, `-batch` is the size of minibatch which is 256 here, `-threads` is the maximum number of threads which is 32 and `-algo` is the choice of algorithm to run which is 2 represending cache blocking stochastic minibatch update algorithm. All options are described below:
@@ -79,4 +77,4 @@ To compute crosslessness or edge crossing, there is a program in metric folder w
 ```
 Here, 3elt_dual.mtx is the input graph file in matrix market format and 3elt_dual.mtxCACHEMINB128PARAOUTRAND600.txt is a text file which contains positions of vertices. To convert a .gml file to .txt file, see instructions in visualize.ipynb file.
 
-If you have questions, please don't hesitate to ask me (Md. Khaledur Rahman) by sending email to morahma@iu.edu.
+If you have questions, please don't hesitate to ask me (Md. Khaledur Rahman) by sending email to `morahma@iu.edu`.
