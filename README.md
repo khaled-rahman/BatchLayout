@@ -1,6 +1,6 @@
-# Stochastic Minibatch Update
+# BatchLayout
 
-Parallel Stochastic Minibatch Update (SMU) Algorithm for Force-Directed Graph Drawing in Shared Memory. This tool generates layout of graphs using multicores which is generally faster than equivalent algorithms. It comes with various features, e.g., it intializes layout using random technique as well as greedy technique(helps to converge faster), it provides options like LinLog mode and Edge weights, it can approximate repulsive forces by  Barnes-Hut approximation and greedy technique. We assume that the input graph is undirected, connected and symmetric.
+Parallel Batch Update Algorithm for Force-Directed Graph Layout generation in Shared Memory. This tool generates layout of graphs using multicores which is generally faster than equivalent algorithms. It comes with various features, e.g., it intializes layout using random technique as well as greedy technique (helps to converge faster), it provides options like LinLog mode and Edge weights, it can approximate repulsive forces by  Barnes-Hut approximation and greedy technique. We assume that the input graph is undirected, connected and symmetric.
 
 ## System Requirements
 
@@ -14,7 +14,7 @@ OpenMP version >= 4.5
 
 Input file must be in matrix market format ([check here for details about .mtx file](https://math.nist.gov/MatrixMarket/formats.html)). To check compile and run, use the following command:
 ```
-$ ./SMUtool -input ./datasets/input/3elt_dual.mtx -output ./datasets/output/ -iter 600 -batch 256 -threads 32 -algo 2
+$ ./BatchLayout -input ./datasets/input/3elt_dual.mtx -output ./datasets/output/ -iter 600 -batch 256 -threads 32 -algo 2
 ```
 Here, `-input` is the full path of input file, `-output` is the directory where output file will be saved, `-iter` is the number of iterations, `-batch` is the size of minibatch which is 256 here, `-threads` is the maximum number of threads which is 32 and `-algo` is the choice of algorithm to run which is 2 represending cache blocking stochastic minibatch update algorithm. All options are described below:
 
