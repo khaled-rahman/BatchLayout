@@ -22,7 +22,7 @@ Here, `-input` is the full path of input file, `-output` is the directory where 
 -input <string>, full path of input file.
 -output <string>, directory where output file will be stored.
 -batch <int>, size of minibatch.
--init <int>, either 0 or 1, 0 - random initialization, 1 - greedy initialization.
+-init <int>, either 0 or 1, 1 - random initialization, 0 - greedy initialization.
 -iter <int>, number of iteration.
 -threads <int>, number of threads, default value is maximum available threads in the machine.
 -algo <int>, an integer among 0, 1, 2, 3, 4 and 5.
@@ -76,5 +76,7 @@ To compute crosslessness or edge crossing, there is a program in metric folder w
 ./metrics/crosslessness datasets/input/3elt_dual.mtx < datasets/output/3elt_dual.mtxCACHEMINB128PARAOUTRAND600.txt
 ```
 Here, 3elt_dual.mtx is the input graph file in matrix market format and 3elt_dual.mtxCACHEMINB128PARAOUTRAND600.txt is a text file which contains positions of vertices. To convert a .gml file to .txt file, see instructions in visualize.ipynb file.
+
+There is another repository by [Felice](https://github.com/felicedeluca/graphmetrics) for computing measures. Users can check that as well.
 
 If you have questions, please don't hesitate to ask me (Md. Khaledur Rahman) by sending email to `morahma@iu.edu`.
