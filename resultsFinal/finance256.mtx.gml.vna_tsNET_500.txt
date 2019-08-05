@@ -1,0 +1,3 @@
+Reading graph: /N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/finance256.mtx.gml.vna... Done.
+Input graph: finance256.mtx.gml, (|V|, |E|) = (37376, 130560)
+Computing SPDM... 

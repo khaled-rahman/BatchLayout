@@ -1,0 +1,20 @@
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/add32.mtx
+Converting matrix data from ASCII to COO format: 0.008227332960814238 seconds
+Input Matrix: Rows = 4960, Columns= 4960, nnz = 23884
+Converting to csc ... 
+
+Cache Blocking Minibatch Size:256
+Cache Blocking Minbatch Energy:3.88891e+06
+Cache Blocking Minibatch Parallel Wall time required:1.0366
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputfinal/add32.mtxCACHEMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/add32.mtx
+Converting matrix data from ASCII to COO format: 0.003107714001089334 seconds
+Input Matrix: Rows = 4960, Columns= 4960, nnz = 23884
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:7.82058e+06
+Barnes-Hut Minibatch Parallel Wall time required:1.02801
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputfinal/add32.mtxBHMINB256PARAOUT500.txt

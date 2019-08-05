@@ -1,0 +1,66 @@
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network262144.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 1.444174088072032 seconds
+Input Matrix: Rows = 262144, Columns= 262144, nnz = 41873812
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:1.68129e+08
+Barnes-Hut Minibatch Parallel Wall time required:278.967
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network262144.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network262144.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 1.382689620833844 seconds
+Input Matrix: Rows = 262144, Columns= 262144, nnz = 41873812
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:1.68129e+08
+Barnes-Hut Minibatch Parallel Wall time required:157.78
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network262144.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network262144.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 1.382943586912006 seconds
+Input Matrix: Rows = 262144, Columns= 262144, nnz = 41873812
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:1.68129e+08
+Barnes-Hut Minibatch Parallel Wall time required:98.2257
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network262144.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network262144.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 1.381636920385063 seconds
+Input Matrix: Rows = 262144, Columns= 262144, nnz = 41873812
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:1.68129e+08
+Barnes-Hut Minibatch Parallel Wall time required:58.643
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network262144.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network262144.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 1.382105821277946 seconds
+Input Matrix: Rows = 262144, Columns= 262144, nnz = 41873812
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:1.68129e+08
+Barnes-Hut Minibatch Parallel Wall time required:42.7339
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network262144.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network1048576.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 10.65909326914698 seconds
+Input Matrix: Rows = 1048576, Columns= 1048576, nnz = 167749116
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:5.98588e+08
+Barnes-Hut Minibatch Parallel Wall time required:197.154
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network1048576.mtxBHMINB256PARAOUT500.txt

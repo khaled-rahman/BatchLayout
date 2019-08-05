@@ -1,0 +1,33 @@
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network65536.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.2376154330559075 seconds
+Input Matrix: Rows = 65536, Columns= 65536, nnz = 4274960
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:2.20967e+07
+Barnes-Hut Minibatch Parallel Wall time required:9.86411
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network65536.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network131072.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.5390208098106086 seconds
+Input Matrix: Rows = 131072, Columns= 131072, nnz = 16294000
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:8.32263e+07
+Barnes-Hut Minibatch Parallel Wall time required:20.401
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network131072.mtxBHMINB256PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/inputscalability/network524288.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 2.765110644046217 seconds
+Input Matrix: Rows = 524288, Columns= 524288, nnz = 83877808
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:2.801e+08
+Barnes-Hut Minibatch Parallel Wall time required:88.3274
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputscalability/network524288.mtxBHMINB256PARAOUT500.txt

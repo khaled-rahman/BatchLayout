@@ -1,0 +1,24 @@
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/netherlands_osm.mtx
+Matrix is symmetric
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.367041839286685 seconds
+Input Matrix: Rows = 2216688, Columns= 2216688, nnz = 4882476
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:2.63166e+08
+Barnes-Hut Minibatch Parallel Wall time required:479.712
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/output/netherlands_osm.mtxBHMINB256PARAOUT700.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/netherlands_osm.mtx
+Matrix is symmetric
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.1665967679582536 seconds
+Input Matrix: Rows = 2216688, Columns= 2216688, nnz = 4882476
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:256
+Barnes-Hut Minbatch Energy:2.63166e+08
+Barnes-Hut Minibatch Parallel Wall time required:496.225
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/output/netherlands_osm.mtxBHMINB256PARAOUT700.txt

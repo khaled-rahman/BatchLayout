@@ -1,0 +1,44 @@
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/finance256.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.06601775111630559 seconds
+Input Matrix: Rows = 37376, Columns= 37376, nnz = 298496
+Converting to csc ... 
+
+Cache Blocking Minibatch Size:64
+Cache Blocking Minbatch Energy:3.87131e+08
+Cache Blocking Minibatch Parallel Wall time required:65.9913
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputfinal/finance256.mtxCACHEMINB64PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/finance256.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.01346779428422451 seconds
+Input Matrix: Rows = 37376, Columns= 37376, nnz = 298496
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:64
+Barnes-Hut Minbatch Energy:1.60949e+07
+Barnes-Hut Minibatch Parallel Wall time required:7.39454
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputfinal/finance256.mtxBHMINB64PARAOUT500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/finance256.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.01246668724343181 seconds
+Input Matrix: Rows = 37376, Columns= 37376, nnz = 298496
+Converting to csc ... 
+
+Cache Blocking Minibatch Size:64
+Cache Blocking Minbatch Energy:1.89113e+07
+Cache Blocking Minibatch Parallel Wall time required:330.121
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputfinal/finance256.mtxCACHEMINB64PARAOUT2500.txt
+Reading input matrices in text (ascii)... 
+Input File Directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/input/finalData/finance256.mtx
+Matrix is symmetric
+Converting matrix data from ASCII to COO format: 0.01345798093825579 seconds
+Input Matrix: Rows = 37376, Columns= 37376, nnz = 298496
+Converting to csc ... 
+
+Barnes-Hut Minibatch Size:64
+Barnes-Hut Minbatch Energy:2.51221e+06
+Barnes-Hut Minibatch Parallel Wall time required:35.6684
+Creating output file in following directory:/N/u/morahma/Research/Spring2019/FirstForceDirectedGraph/ParallelGraphVis/SMU/datasets/outputfinal/finance256.mtxBHMINB64PARAOUT2500.txt
