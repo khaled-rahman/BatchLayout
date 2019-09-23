@@ -1,6 +1,6 @@
 # BatchLayout
 
-Parallel Batch Update Algorithm for Force-Directed Graph Layout generation in Shared Memory. This tool generates layout of graphs using multicores which is generally faster than equivalent algorithms. It comes with various features, e.g., it intializes layout using random technique as well as greedy technique (helps to converge faster), it provides several ptions like (a,r)-energy models and Edge weights, it can approximate repulsive forces by  Barnes-Hut approximation and greedy technique. We assume that the input graph is undirected, connected and symmetric.
+Parallel Batch Update Algorithm for Force-Directed Graph Layout generation in Shared Memory. This tool generates layout of graphs using multicores which is generally faster than state-of-the-art algorithms. It comes with various features, e.g., it intializes layout using random technique as well as greedy technique (helps to converge faster), it provides several options like (a,r)-energy models and Edge weights, it can approximate repulsive forces by  Barnes-Hut approximation and greedy technique. We assume that the input graph is undirected, connected and symmetric.
 
 ## System Requirements
 
@@ -14,15 +14,18 @@ Some helpful links for installation can be found at [GCC](https://gcc.gnu.org/in
 
 ## Compile and Run BatchLayout
 
-Go to BatchLayoutCode directory and follow the instructions step by step. Once you have compiled and generated a executible file, you can run BatchLayout from this directory as following:
+Go to `BatchLayoutCode` directory and follow the instructions step by step. Once you have compiled and generated a executible file, you can run BatchLayout from this directory as following:
 ```
 $ ./BatchLayoutCode/bin/BatchLayout -input ./datasets/input/3elt_dual.mtx -output ./datasets/output/ -iter 600 -batch 256 -threads 32 -algo 2
 ```
-For more options, check out readme file in BatchLayoutCode folder or type `./BatchLayoutCode/bin/BatchLayout` from this directory for help message.
+For more options, check out readme file in `BatchLayoutCode` folder or type `./BatchLayoutCode/bin/BatchLayout` from this directory for help message.
 
 ## Run othertools
 
-We have also made other tools (ForceAtlas2, OpenOrd, and tsNET) available here to run. Please go to othertools folder and follow instructions step by step.
+We have also made other tools (ForceAtlas2, OpenOrd, and tsNET) available here to run. Please go to `othertools` folder and follow instructions step by step.
+
+## File conversion
+Different tools takes different input format. To increase user friendly, We provide few python scripts for file conversion in `fileconversion` folder. User can check out corresponding readme file.
 
 ## Visualize layout
 Users can check `visualize.ipynb` jupyter notebook for visualization. You can run jupyter notebook using following command provided that you have it installed on your machine. Then set appropriate directory for input and output files.
