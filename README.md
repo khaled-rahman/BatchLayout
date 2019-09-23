@@ -1,6 +1,6 @@
 # BatchLayout
 
-<img align="right" width="300" height="600" src="./BatchLayoutCode/batchlayoutsystem.png">
+<img align="right" width="200" height="350" src="./BatchLayoutCode/batchlayoutsystem.png">
 
 Parallel Batch Update Algorithm for Force-Directed Graph Layout generation in Shared Memory. This tool generates layout of graphs using multicores which is generally faster than state-of-the-art algorithms. It comes with various features, e.g., it intializes layout using random technique as well as greedy technique (helps to converge faster), it provides several options like (a,r)-energy models and Edge weights, it can approximate repulsive forces by  Barnes-Hut approximation and greedy technique. We assume that the input graph is undirected, connected and symmetric.
 ```
