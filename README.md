@@ -38,14 +38,15 @@ We have also made other tools (ForceAtlas2, OpenOrd, and tsNET) available here t
 ## File conversion
 Different tools takes different input format. To increase user friendly, We provide few python scripts for file conversion in `fileconversion` folder. User can check out corresponding readme file.
 
+## Aesthetic Metrics
+To compute aesthetic metrics (edge crossing, min-angle, edge length variation, shape gabriel), users will need to have [glam](https://github.com/VIDILabs/glam) tool installed which has some other system requirements. There is another repository by [Felice](https://github.com/felicedeluca/graphmetrics) for computing measures such as Edge Uniformity, Stress, Neighborhood Preservation, etc. Users can check that as well.
+
 ## Visualize layout
 Users can check `visualize.ipynb` jupyter notebook for visualization. You can run jupyter notebook using following command provided that you have it installed on your machine. Then set appropriate directory for input and output files.
 ```
 jupyter notebook visualize.ipynb
+jupyter notebook FinalVis.ipynb
 ```
-
-## Aesthetic Metrics
-To compute aesthetic metrics (edge crossing, min-angle, edge length variation, shape gabriel), users will need to have [glam](https://github.com/VIDILabs/glam) tool installed which has some other system requirements. There is another repository by [Felice](https://github.com/felicedeluca/graphmetrics) for computing measures such as Edge Uniformity, Stress, Neighborhood Preservation, etc. Users can check that as well.
 
 ## Acknowledgement
 Authors would like to thank Kwon, Felice and J Dyer for making their repositories public. Those were helpful for building script for other tools and running aesthetic metrics.
