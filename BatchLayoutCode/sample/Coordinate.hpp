@@ -85,7 +85,7 @@ class Coordinate{
 };
 template<class VALUETYPE>
 VALUETYPE get_random(VALUETYPE lowerbound, VALUETYPE upperbound){
-        return lowerbound + (upperbound-lowerbound) * static_cast <VALUETYPE> (random()) / static_cast <VALUETYPE> (RAND_MAX);
+        return lowerbound + (upperbound-lowerbound) * (random()*1.0) / (RAND_MAX);
 }
 
 template<class VALUETYPE>
