@@ -53,9 +53,8 @@ Authors would like to thank Kwon, Felice and J Dyer for making their repositorie
 
 ## Citation
 If you find this repository helpful, please cite the following paper:
-```
+
 Md. Khaledur Rahman and Ariful Azad, "BatchLayout: A batch-parallel force-directed graph layout algorithm in shared memory", The 13th IEEE Pacific Visualization Symposium (PacificVis 2020), April, 2020, Tianjin, China. (under review)
-```
 
 ## Contact
 If you have questions or comments, please don't hesitate to ask me (Md. Khaledur Rahman) by sending email to `morahma@iu.edu`.
