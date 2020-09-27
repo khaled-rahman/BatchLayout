@@ -15,10 +15,12 @@ BatchLayout: $(UNITTEST_TARGET:.cpp=)
 
 $(BIN)/%: $(SAMPLE)/%.cpp
 	mkdir -p $(BIN)
+	mkdir -p datasets/output
 	$(COMPILER) $(FLAGS) $(INCLUDE) -o $@ $^ -DCPP ${TOCOMPILE} ${LIBS}
 
 $(BIN)/%: $(UNITTEST)/%.cpp
 	mkdir -p $(BIN)
+	mkdir -p datasets/output
 	$(COMPILER) $(FLAGS) $(INCLUDE) -o $@ $^ -DCPP ${TOCOMPILE} ${LIBS}
 		
 clean:
